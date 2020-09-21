@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+body {
+	<link href="https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,400;1,100&display=swap" rel="stylesheet"> @import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,400;1,100&display=swap');
+}
+
+
+
+.logo {
+	width: 15%;
+	flex: 0 0 auto;
+	padding: 15px;
+}
+.log a{
+	display: block;
+}
+
+.menu{
+	width: 85%;
+	flex: 0 0 auto
+}
+.menu ul {
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+.menu ul li {
+	list-style-type: none;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 15px 20px;
+	line-height: 1.7;
+	color: #121312;
+}
+
+.menu ul li a:hover{
+	color: red;
+	opacity: 0.9;
+}
+
+.logo:hover {
+	opacity: 0.9;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+.about-text{
+	text-align: center;
+	
+}
+.about-content{
+	margin: auto;
+	padding: 50px 340px;
+}
+.about-content h1{
+	padding: 0px 50px;
+	font-size: 40px;
+	color: #643b3b;
+}
+.about-content h1 span {
+	color: #2E9BFF;
+}
+.about-content p{
+	font-size: 20px;
+	line-height: 1.8;
+	color: #643b3b;
+}
+.about-content img{
+	max-width: 500px;
+	margin: auto;
+	margin-top: 20px;
+
+}
+
+
+section{
+	padding-top: 50px;
+}
+.col-1{
+	width: 50%;
+	flex: 0 0 auto;
+	padding: 20px;
+}
+.project-content-1{
+	text-align: right;
+
+}
+.project-content-1 h1{
+	font-size: 50px;
+	color: red;
+	line-height: 1.9;
+}
+.project-content-1 p{
+	color: #937979;
+	font-size: 15px;
+	line-height: 2.0;
+	max-width: 560px;
+}
+
+.project-content-2 h1{
+	font-size: 60px;
+	color: #3c3838;
+	line-height: 1.1;
+}
+
+
+.project-content-2{
+	font-size: 50px;
+	color: #2b0c0c;
+	
+}
+
+
+
+
+
+
+.section-feature{
+	padding: 20px 0px;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+}
+.col{
+	padding: 20px;
+	width: 33.33%;
+	flex: 0 0 auto
+}
+.section{
+	padding: 40px 20px;
+}
+.section img{
+	height: 200px;
+	object-fit: cover;
+	object-position: center;
+	margin: auto;
+}
+.section h2{
+	font-size: 20px;
+	color: gray;
+	line-height: 1.9;
+	margin-top: 15px;
+}
+.section p{
+	font-size: 15px;
+	color: teal;
+}
+.color1{
+	background: #FDEBED;
+}
+.color2{
+	background: #EBF9F4;
+}
+.color3{
+	background: #FFF7E8;
+}
